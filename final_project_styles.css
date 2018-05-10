@@ -1,0 +1,275 @@
+/*final project style sheet*/
+
+/*general styles*/
+
+html {
+   background-image: url(chemstruc.jpg);
+   background-repeat:repeat-x;
+	}
+	
+body
+{
+/*default style sheet*/
+font-family: Verdana, Geneva, sans-serif;
+ font-size: 100%;
+  font-weight: inherit;
+}	
+	
+body
+{
+
+background-repeat: repeat-y;
+display:block;
+width: 90%;
+margin: 0px auto;/*8allows for sysmetry*/
+}
+figcaption
+{
+font-weight: bold;
+}
+
+#logo
+{
+float: left;
+text-align: center;
+
+}
+ #logo img
+{
+height:160px;
+width:160px;
+}
+
+#logo figcaption
+{
+    text-align: center;
+    width: 160px;
+}
+
+#pic
+{
+clear: right;
+float:right;
+text-align: center;
+}
+
+nav
+{
+    text-align: center;
+}
+nav ul
+{
+list-style-type: none;
+margin-left:auto;
+ margin-right:auto;
+ tezt-align: center;
+} 
+nav ul li
+{
+display: inline-block;
+width: 15%;
+background-color: green;
+border-radius: 10px;
+text-align: center;
+margin-left:10px;
+
+box-shadow: rgb(46,137,58) 5px 3px 1px;
+-moz-box-shadow: rgb(46,137,58) 5x 3px 1px;
+-webkit-box-shadow: rgb(46,137,58) 5px 3px 1px ;
+
+}
+nav ul li:hover
+{
+background-color: rgb(110,220,176);
+box-shadow: rgb(110,220,176) 5px 3px 1px;
+-moz-box-shadow: rgb(110,220,176) 5x 3px 1px;
+-webkit-box-shadow: rgb(110,220,176) 5px 3px 1px;
+ 
+}
+nav ul li a
+{
+color: white;
+text-decoration:none;
+
+font-family: Arial Black, Gadget, sans-serif;
+font-size:1.2em;
+}
+
+section
+{
+clear:left;
+float:left;
+}
+
+
+article
+{
+background-color:white;
+clear:left;
+float:left;
+
+}
+
+aside
+{
+float:right;
+border-left: 3px solid rgb(46,137,58);
+border-top: 3px solid rgb(46,137,58);
+border-bottom: 3px solid rgb(46,137,58);
+border-radius: 25px 0px 0px 25px;
+-moz-border-radius: 25px 0px 0px 25px;
+-webkit-border-bottom-left-radius: 25px;
+-webkit-border-top-left-radius: 25px;
+}
+section.emplyername,section.address,section.phone,section.email
+{
+text-indent:250px;
+clear:left;
+float:left;
+}
+
+p.name
+{
+text-align:center;
+font-weight: bold;
+font-size: 50px;
+}
+ p.dademail
+ {
+ clear:center;
+ text-align:center;
+ }
+p.dadaddress
+{
+}
+
+p.homephone
+{
+text-align: right;
+}
+p.cellphone
+{
+text-align:right;
+}
+
+p.linkedin
+{
+text-align: center;
+}
+
+p.year
+{
+text-align: right;
+}
+
+@media only screen and (max-width: 500px ){
+    /*final project mobilestyle sheet*/
+/*general styles*/
+
+
+html{
+   background-image: none;
+   
+	}
+	
+body
+{
+/*default style sheet*/
+font-family: Verdana, Geneva, sans-serif;
+ font-size: 100%;
+  font-weight: inherit;
+}	
+	
+body
+{
+display:block;
+width: 100%;
+margin: 0px auto;/*8allows for sysmetry*/
+
+}
+figcaption
+{
+font-weight: bold;
+}
+
+#logo
+{
+display: none;
+}
+
+#pic
+{
+clear: left;
+float:left;
+}
+nav ul 
+{
+list-style-image:none;
+} 
+nav ul li
+{
+clear:left;
+float:left;
+width: 100%;
+background-color: green;
+border-radius: 10px;
+text-align: center;
+margin-left:10px;
+
+box-shadow: rgb(46,137,58) 5px 3px 1px;
+-moz-box-shadow: rgb(46,137,58) 5x 3px 1px;
+-webkit-box-shadow: rgb(46,137,58) 5px 3px 1px ;
+
+}
+nav ul li:hover
+{
+background-color: rgb(110,220,176);
+}
+nav ul li a
+{
+color: white;
+text-decoration:none;
+
+font-family: Arial Black, Gadget, sans-serif;
+font-size:1.2em;
+}
+
+section p,section.resume
+{
+text-indent:50px;
+}
+
+section
+{
+clear:left;
+float:left;
+}
+
+
+article
+{
+background-color:white;
+clear:left;
+float:left;
+
+}
+
+aside
+{
+float:right;
+border-left: 3px solid rgb(46,137,58);
+border-top: 3px solid rgb(46,137,58);
+border-bottom: 3px solid rgb(46,137,58);
+border-radius: 25px 0px 0px 25px;
+-moz-border-radius: 25px 0px 0px 25px;
+-webkit-border-bottom-left-radius: 25px;
+-webkit-border-top-left-radius: 25px;
+}
+section.emplyername,section.address,section.phone,section.email
+{
+text-indent:0px;
+clear:left;
+float:left;
+}
+
+}
